@@ -87,6 +87,10 @@ Version Information
 13th January 2009 - Version 2.2.0.1
   1. Based upon version 2.3.1.1.2 of weekcoll.
   2. This is a 'beta' test version and should NOT be used in production environments.
+  3. There is a known bug that if you set a week in the future to be the 'Show only week' 
+     in editing mode and then come out, then no weeks are displayed and the drop down selection
+     box does not allow another week to be selected.  You need to go back into editing mode to
+     recover.
 
 Thanks
 ------

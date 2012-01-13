@@ -34,7 +34,7 @@ defined('MOODLE_INTERNAL') || die();
 require_once($CFG->libdir . '/filelib.php');
 require_once($CFG->libdir . '/completionlib.php');
 
-// Now get the css and JavaScript Lib.  The call to weekcoll_init sets things up for JavaScript to work by understanding the particulars of this course.
+// Now get the css and JavaScript Lib.  The call to latfirst_init sets things up for JavaScript to work by understanding the particulars of this course.
 ?>    
 <style type="text/css" media="screen">
     /* <![CDATA[ */
@@ -299,11 +299,11 @@ while ($loopsection <= $course->numsections) {
         echo '<td class="right side">';
 
         if ($displaysection == $section) {
-            echo '<a href="view.php?id=' . $course->id . '&amp;cweeks=0#section-' . $section . '" title="' . $strshowallweeks . '">' .
+            echo '<a href="view.php?id=' . $course->id . '&amp;lf=0#section-' . $section . '" title="' . $strshowallweeks . '">' .
             '<img src="' . $OUTPUT->pix_url('i/all') . '" class="icon wkall" alt="' . $strshowallweeks . '" /></a><br />';
         } else {
             $strshowonlyweek = get_string("showonlyweek", "", $section);
-            echo '<a href="view.php?id=' . $course->id . '&amp;cweeks=' . $section . '" title="' . $strshowonlyweek . '">' .
+            echo '<a href="view.php?id=' . $course->id . '&amp;lf=' . $section . '" title="' . $strshowonlyweek . '">' .
             '<img src="' . $OUTPUT->pix_url('i/one') . '" class="icon wkone" alt="' . $strshowonlyweek . '" /></a><br />';
         }
 
