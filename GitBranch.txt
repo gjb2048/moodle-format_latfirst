@@ -1,1 +1,1 @@
-This is the master branch.
+This is the Latest First for Moodle 2.2.x branch.
