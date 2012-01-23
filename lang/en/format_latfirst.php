@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * Latest First Information
  *

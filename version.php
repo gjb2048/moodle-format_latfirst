@@ -31,8 +31,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
  
- $plugin->version = 2012011300;
+ $plugin->version = 2012012300;
  $plugin->maturity = MATURITY_STABLE;
  $plugin->requires = 2011120500.00; // 2.2
  $plugin->component = 'format_latfirst';
- $plugin->release = '2.2.0.1';
+ $plugin->release = '2.2.0.2';

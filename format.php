@@ -197,7 +197,7 @@ while ($loopsection <= $course->numsections) {
     if (!empty($sections[$section])) {
         $thissection = $sections[$section];
     } else {
-        unset($thissection);
+        $thissection = new stdClass(); // MDL-31006
         $thissection->course = $course->id;   // Create a new week structure
         $thissection->section = $section;
         $thissection->name = null;

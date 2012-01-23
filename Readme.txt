@@ -1,4 +1,4 @@
-﻿Introduction
+Introduction
 ------------
 A week based format that solves the issue of the 'Scroll of Death' when a course has many weeks.  The
 latest week is shown at the top and preceding weeks are shown below with forthcoming weeks hidden from
@@ -84,7 +84,7 @@ Known Issues
 
 Version Information
 -------------------
-13th January 2009 - Version 2.2.0.1
+13th January 2012 - Version 2.2.0.1
   1. Based upon version 2.3.1.1.2 of weekcoll.
   2. This is a 'beta' test version and should NOT be used in production environments.
   3. There is a known bug that if you set a week in the future to be the 'Show only week' 
@@ -92,6 +92,10 @@ Version Information
      box does not allow another week to be selected.  You need to go back into editing mode to
      recover.
 
+23rd January 2012 - Version 2.2.0.2
+  1. Sorted out UTF-8 BOM issue, see MDL-31343.
+  2. Slight change for MDL-31006 to support PHP 5.4.
+  
 Thanks
 ------
 I would like to thank Anthony Borrow - arborrow@jesuits.net & anthony@moodle.org - for his invaluable input.
@@ -134,4 +138,4 @@ Desired Enhancements
 2. Use ordered lists / divs instead of tables to fall in line with current web design theory.  Older versions of
    'certain' browsers causing issues in making this happen.
 
-G J Barnard - MSc, BSc(Hons)(Sndw), PGCE, MBCS, CEng, CITP - 13th January 2012.
+G J Barnard - MSc, BSc(Hons)(Sndw), PGCE, MBCS, CEng, CITP - 23rd January 2012.
